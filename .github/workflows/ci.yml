@@ -37,7 +37,7 @@ jobs:
       uses: ./.github/actions/build
 
     - name: 'Upload artifact'
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: jit-access.jar
         path: sources/target/*.jar
